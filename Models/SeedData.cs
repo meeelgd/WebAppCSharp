@@ -55,6 +55,14 @@ namespace RazorPagesMovie.Models
                         Genre = "Western",
                         Price = 3.99M,
                         Rating = "4.8/5"
+                    },
+                    new Movie
+                    {
+                        Title = "Back to the Future",
+                        ReleaseDate = DateTime.Parse("1985-7-3"),
+                        Genre = "Science Fiction",
+                        Price = 9.99M,
+                        Rating = "5/5"
                     }
                 );
                 context.SaveChanges();
